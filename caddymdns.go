@@ -1,4 +1,4 @@
-package caddymdns
+package mdns
 
 import (
 	"fmt"

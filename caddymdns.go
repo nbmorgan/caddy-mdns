@@ -1,10 +1,10 @@
-package caddy-mdns
+package caddymdns
 
 import (
 	"fmt"
 	"log"
 	"os/exec"
-
+    "net/http" 
 	"github.com/caddyserver/caddy/v2"
 	"github.com/caddyserver/caddy/v2/modules/caddyhttp"
 )
